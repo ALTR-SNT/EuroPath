@@ -1,0 +1,58 @@
+header {
+    height: 15vh;
+    background: linear-gradient(50deg, #000000, #6a0aaa, #000000);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s infinite ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    
+  }
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  nav{
+    background-color: #000000;
+    padding: 13px
+  }
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/*adaptive header*/
+@media (max-width: 768px) {
+  header {
+      font-size: 1em; 
+      height: auto; 
+      padding: 30px; 
+  }
+
+  nav {
+      padding: 5px; 
+  }
+
+  nav a {
+      padding: 8px 10px; 
+      font-size: 0.9em; 
+  }
+
+  ul {
+      flex-direction: column; 
+      gap: 10px; 
+  }
+}
