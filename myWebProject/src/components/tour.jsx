@@ -16,6 +16,7 @@ function Tour({ id }) {
                     <img src={tour.img} alt={tour.name}/>
                         <div className= "info">
                          <h3>{tour.name}</h3>
+                         <p>{tour.desc}</p>
                         </div>
                 </div>
              </div>

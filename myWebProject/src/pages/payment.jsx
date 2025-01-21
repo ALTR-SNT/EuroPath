@@ -5,17 +5,14 @@ export default function Payment() {
         <>
         <HeadNav />
             <main>
-                <h1 style = {{textAlign: "center"}}> Оплата туру</h1>
+                 <h1> Оплата туру</h1>
                <section id = "paymentS">
-               <h2>Виберіть спосіб оплати:</h2>
-                <button>
-                    Оплата через телеграм-бота
-                </button>
-              <h2>Або</h2>
-              <form>
+               <form className="form">
+               <h2>Форма для оплати</h2>
                 <input type="text" placeholder="Ім'я" id="nameUser"/>
                 <input type="email" placeholder="@email" id="emailUser"/>
                 <input type="number"  placeholder="Номер картки" id="cardNum"/>
+                <button type="submit">Оплатити</button>
               </form>
                </section>
             </main>
