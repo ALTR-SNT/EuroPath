@@ -3,7 +3,7 @@ function HeadNav (){
     return(
      <>
         <header>
-            <h1><strong>die Weintrauben </strong> </h1>
+            <h1><strong>EuroPath</strong></h1>
             <p> <i>Тури по всій Європі</i></p>  
        </header>
         <nav>

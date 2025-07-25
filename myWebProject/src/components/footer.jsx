@@ -2,7 +2,7 @@ import "../styles/footer.css"
 function footer(){
     return(
         <footer>
-        &copy; 2025 die Weintrauben
+        &copy; 2025 EuroPath
         </footer>
     );
 }
