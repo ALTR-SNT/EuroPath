@@ -9,6 +9,8 @@ export default function Paris() {
            <h1>{tourData["par"].name}</h1>
             <img src={tourData["par"].img} alt="Paris" />
             <p>{tourData["par"].desc}</p>
+            <b>{tourData["par"].time}</b>
+            <b>{tourData["par"].price}</b>
             <button onClick={() => (window.location.href = '/payment')}>Оплата туру</button>
            </main>
            <Footer/>

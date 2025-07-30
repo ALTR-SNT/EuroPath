@@ -17,6 +17,7 @@ function Tour({ id }) {
                         <div className= "info">
                          <h3>{tour.name}</h3>
                          <p>{tour.desc}</p>
+                         <b>{tour.price}</b>
                         </div>
                 </div>
              </div>

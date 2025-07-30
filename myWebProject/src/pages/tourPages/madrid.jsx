@@ -9,6 +9,8 @@ export default function Madrid() {
         <h1>{tourData["ma"].name}</h1>
         <img src={tourData["ma"].img} alt="Madrid" />
         <p>{tourData["ma"].desc}</p>
+        <b>{tourData["ma"].time}</b>
+        <b>{tourData["ma"].price}</b>
         <button onClick={() => (window.location.href = '/payment')}>Оплата туру</button>
         </main>
         <Footer/>

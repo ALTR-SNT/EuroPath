@@ -9,6 +9,8 @@ export default function Warsaw() {
            <h1>{tourData["wa"].name}</h1>
             <img src={tourData["wa"].img} alt="Warsaw" />
             <p>{tourData["wa"].desc}</p>
+            <b>{tourData["wa"].time}</b>
+            <b>{tourData["wa"].price}</b>
             <button onClick={() => (window.location.href = '/payment')}>Оплата туру</button>
            </main>
            <Footer/>
