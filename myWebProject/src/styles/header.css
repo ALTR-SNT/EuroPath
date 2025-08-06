@@ -1,6 +1,6 @@
 header {
     height: 15vh;
-    background: linear-gradient(50deg, #000000, #6a0aaa, #000000);
+    background: linear-gradient(50deg, #000000, #0c4a6e, #000000);
     background-size: 300% 300%;
     animation: gradientAnimation 10s infinite ease-in-out;
     color: white;
