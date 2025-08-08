@@ -23,7 +23,7 @@ EuroPath is my first React project - a modern, responsive landing page for a tou
 git clone https://github.com/ALTR-SNT/europath
 
 # Navigate to project directory
-cd europath
+cd myWebProject
 
 # Install dependencies
 npm install
