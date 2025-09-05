@@ -36,10 +36,11 @@ button{
 }
 .tourSec{
     display: flex;
-    width: 60%;
+    height: fit-content;
+    width: 70%;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .checkTour{
@@ -80,8 +81,8 @@ button{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 20px 0 20px;
-
+        margin-bottom: 30px;
+        margin-right: 15px;
     }
     .checkTour img{
         height: 200px;

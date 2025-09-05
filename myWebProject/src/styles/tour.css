@@ -1,13 +1,17 @@
 .card{
+   background:none;
+    border-radius: 5%;
     display: flex;
-    height: 400px;
+    height: 200px;
     width: 320px;
     margin: 2%;
-    border: 0.5px solid rgb(0, 0, 0);
     text-align: center;
     animation: fade-in 1s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 60px 55px, rgba(0, 0, 0, 0.12) 0px -12px 60px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 25px;
 }
+.card-content{
+  background: none;
+}
+/*
 .info p {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -16,6 +20,7 @@
   -webkit-line-clamp: 3; 
   -webkit-box-orient: vertical;
 }
+*/
 @keyframes fade-in {
     from {
       opacity: 0;
@@ -26,6 +31,7 @@
   }
 
 .card img{
-    height: 50%;
+    height: 100%;
     width: 100%;
+    border-radius: 5%;
 }
